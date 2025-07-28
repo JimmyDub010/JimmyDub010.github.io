@@ -4,3 +4,5 @@ category=Phrase
 puzzle=WHEEL OF FORTUNE
 category=Food and Drink
 puzzle=CHEESE AND CRACKERS
+category=audiogames
+puzzle=Survive The Wild
