@@ -14,7 +14,7 @@ const puzzlesData = [
     { category: "Before and After", puzzle: "BABY SHOWER CURTAIN" },
     { category: "Occupation", puzzle: "AIRLINE PILOT" },
     { category: "Animal", puzzle: "KANGAROO" },
-    { category: "Food and Drink", puzzle: "PEANUT BUTTER COOKIES" }
+    { category: "Food and Drink", puzzle: "PEANUT BUTTER COOKIES" },
     { category: "Thing", puzzle: "BASEBALL" },
     { category: "Phrase", puzzle: "WHEEL OF FORTUNE" },
     { category: "Food and Drink", puzzle: "CHEESE AND CRACKERS" }
