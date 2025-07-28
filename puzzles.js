@@ -1,11 +1,5 @@
 
 const puzzlesData = [
-    { category: "Thing", puzzle: "BASEBALL" },
-    { category: "Thing", puzzle: "big balls" },
-    { category: "Audiogames", puzzle: "Swamp" },
-    { category: "Audiogames", puzzle: "The Killer" },
-    { category: "Audiogames", puzzle: "Survive The Wild" },
-    { category: "Phrase", puzzle: "WHEEL OF FORTUNE" },
     { category: "Thing", puzzle: "TELEPHONE CHARGER" },
     { category: "Place", puzzle: "GRAND CANYON" },
     { category: "Phrase", puzzle: "BETTER LATE THAN NEVER" },
@@ -21,5 +15,7 @@ const puzzlesData = [
     { category: "Occupation", puzzle: "AIRLINE PILOT" },
     { category: "Animal", puzzle: "KANGAROO" },
     { category: "Food and Drink", puzzle: "PEANUT BUTTER COOKIES" }
+    { category: "Thing", puzzle: "BASEBALL" },
+    { category: "Phrase", puzzle: "WHEEL OF FORTUNE" },
     { category: "Food and Drink", puzzle: "CHEESE AND CRACKERS" }
 ];
