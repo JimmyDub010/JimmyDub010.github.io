@@ -1,1 +1,39 @@
-testing hello hehehehehehehehihihihihihihihi
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheel of Fortune</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Wheel of Fortune</h1>
+    <div id="game-container">
+        <div id="puzzle-container">
+            <div id="category"></div>
+            <div id="puzzle"></div>
+        </div>
+        <div id="controls">
+            <button id="spin-button">Spin</button>
+            <button id="buy-vowel-button">Buy a Vowel</button>
+            <button id="solve-button">Solve the Puzzle</button>
+        </div>
+        <div id="round-container">
+            <h2>Round: <span id="round-number">1</span></h2>
+        </div>
+        <div id="player-info">
+            <h3>Score: $<span id="player-score">0</span></h3>
+        </div>
+        <div id="message-container">
+            <p id="message"></p>
+        </div>
+    </div>
+    <div id="letter-input-container" class="hidden">
+        <label for="letter-input">Enter a letter:</label>
+        <input type="text" id="letter-input" maxlength="1">
+        <button id="submit-letter-button">Submit</button>
+    </div>
+    <script src="puzzles.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

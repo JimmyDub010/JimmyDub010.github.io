@@ -1,0 +1,6 @@
+
+const puzzlesData = [
+    { category: "Thing", puzzle: "BASEBALL" },
+    { category: "Phrase", puzzle: "WHEEL OF FORTUNE" },
+    { category: "Food and Drink", puzzle: "CHEESE AND CRACKERS" }
+];
