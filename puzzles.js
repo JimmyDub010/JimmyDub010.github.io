@@ -6,5 +6,7 @@ const puzzlesData = [
     { category: "Audiogames", puzzle: "The Killer" },
     { category: "Audiogames", puzzle: "Survive The Wild" },
     { category: "Phrase", puzzle: "WHEEL OF FORTUNE" },
+    { category: "Phrase", puzzle: "I like big balls" },
+
     { category: "Food and Drink", puzzle: "CHEESE AND CRACKERS" }
 ];
