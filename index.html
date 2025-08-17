@@ -3,37 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wheel of Fortune</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My Game Show Games</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1em 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2em;
+        }
+        footer {
+            margin-top: 2em;
+            padding: 1em 0;
+            background: #222;
+            color: #ccc;
+            font-size: 0.9em;
+        }
+    </style>
 </head>
 <body>
-    <h1>Wheel of Fortune</h1>
-    <div id="game-container">
-        <div id="puzzle-container">
-            <div id="category"></div>
-            <div id="puzzle"></div>
-        </div>
-        <div id="controls">
-            <button id="spin-button">Spin</button>
-            <button id="buy-vowel-button">Buy a Vowel</button>
-            <button id="solve-button">Solve the Puzzle</button>
-        </div>
-        <div id="round-container">
-            <h2>Round: <span id="round-number">1</span></h2>
-        </div>
-        <div id="player-info">
-            <h3>Score: $<span id="player-score">0</span></h3>
-        </div>
-        <div id="message-container">
-            <p id="message"></p>
-        </div>
-    </div>
-    <div id="letter-input-container" class="hidden">
-        <label for="letter-input">Enter a letter:</label>
-        <input type="text" id="letter-input" maxlength="1">
-        <button id="submit-letter-button">Submit</button>
-    </div>
-    <script src="puzzles.js"></script>
-    <script src="script.js"></script>
+
+<header>
+    <h1>Welcome to My Game Show Games!</h1>
+    <nav>
+        <a href="games.html">Games</a>
+        <a href="contact.html">Contact Me</a>
+    </nav>
+</header>
+
+<main>
+    <h2>Fun and Accessible Game Downloads</h2>
+    <p>Here you'll find my custom-made game show games and more. Whether you're a fan of 
+    <strong>The Price Is Right</strong>, trivia challenges, or original creations, you'll find something fun here!</p>
+    <p>Click on "Games" above to see all available downloads.</p>
+</main>
+
+<footer>
+    &copy; 2025 My Game Show Games. All rights reserved.
+</footer>
+
 </body>
 </html>
