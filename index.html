@@ -1,63 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Game Show Games</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 1em 0;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 1.2em;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        main {
-            padding: 2em;
-        }
-        footer {
-            margin-top: 2em;
-            padding: 1em 0;
-            background: #222;
-            color: #ccc;
-            font-size: 0.9em;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JimmyDub — Accessible Gaming &amp; Software</title>
+  <meta name="description" content="Accessible gaming mods and software projects by JimmyDub.">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+<a class="skip-link" href="#main">Skip to main content</a>
 <header>
-    <h1>Welcome to My Game Show Games!</h1>
-    <nav>
-        <a href="games.html">Games</a>
-        <a href="contact.html">Contact Me</a>
-    </nav>
+  <p class="site-name"><a href="index.html">JimmyDub</a></p>
+  <p class="tagline">Accessible Gaming &amp; Software</p>
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="updates.html">Development updates</a></li>
+      <li><a href="support.html">Support my work</a></li>
+      <li><a href="contact.html">Contact and feedback</a></li>
+    </ul>
+  </nav>
 </header>
+<main id="main">
+  <h1>Making more games accessible</h1>
+  <p>Welcome! I'm JimmyDub, an independent developer working on accessibility mods and software. My goal is to make more games and tools usable by blind and visually impaired players, including people who rely on screen readers and keyboard controls.</p>
+  <p>This site brings my projects, downloads, progress updates, and support links together in one place.</p>
+  <p><a class="button-link" href="projects.html">Explore my projects</a></p>
 
-<main>
-    <h2>Fun and Accessible Game Downloads</h2>
-    <p>Here you'll find my custom-made game show games and more. Whether you're a fan of 
-    <strong>The Price Is Right</strong>, trivia challenges, or original creations, you'll find something fun here!</p>
-    <p>Click on "Games" above to see all available downloads.</p>
+  <section aria-labelledby="featured-heading">
+    <h2 id="featured-heading">Featured project</h2>
+    <div class="card">
+      <h3><a href="projects/112-operator.html">112 Operator Accessibility Mod</a></h3>
+      <p>An accessibility mod intended to make more of the game experience available to blind players.</p>
+      <p class="status">Status: Available; details and download link to be finalized.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="approach-heading">
+    <h2 id="approach-heading">What I work on</h2>
+    <ul>
+      <li>Accessibility mods for existing games.</li>
+      <li>Screen-reader-friendly game interactions and information.</li>
+      <li>Accessible software tools, including AI-related projects.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="feedback-heading">
+    <h2 id="feedback-heading">Feedback matters</h2>
+    <p>Bug reports help me find problems, but successful test reports are valuable too. If a mod works well for you, please let me know what worked and which game version you tested.</p>
+    <p><a href="contact.html">Send feedback or report a problem</a></p>
+  </section>
 </main>
-
 <footer>
-    &copy; 2025 My Game Show Games. All rights reserved.
+  <p>JimmyDub — Accessible Gaming &amp; Software</p>
+  <p class="small">Independent community projects. Check each project page for its status, compatibility notes, and download information.</p>
 </footer>
-
 </body>
 </html>
